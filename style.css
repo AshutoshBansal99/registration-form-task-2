@@ -1,0 +1,58 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    display: flexbox;
+    background-color: #bc8034;
+}
+
+label {
+    font-family: "Times New Roman", Times, serif;
+    color: #8c7a6b;
+}
+
+.heading {
+    font-family: "Times New Roman", Times, serif;
+    color: #8c7a6b;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.box {
+    display: flexbox;
+    position: absolute;
+    justify-content: center;
+    width: 700px;
+    height: 1400px;
+    background: url(./img/i-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #d9cab3;
+    padding: 5%;
+    margin: 10%;
+    left: 10%;
+}
+
+.headline {
+    display: flex;
+    padding: 4%;
+    justify-content: center;
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    font-family: "Times New Roman", Times, serif;
+    color: #5e0b15;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.baseheading {
+    display: flex;
+    padding: 4%;
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+    font-family: "Times New Roman", Times, serif;
+    color: #5e0b15;
+    font-size: x-large;
+    text-decoration: underline;
+}
